@@ -1,0 +1,196 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+ }
+.wrapper{
+	width: 1920px;
+	height: 4400px;
+	background: aqua;
+	margin: 0 auto;
+}
+.header{
+	width: 1920px;
+	height: 85px;
+	background: #222222;
+}
+.logo{
+	width: 130px;
+	height: 85px;
+	float: left;
+}
+.logo img{
+	width: 35px;
+	height: 50px;
+	margin: 0 auto;
+	margin-left: 40px;
+	margin-top: 17px;
+}
+.menu{
+	width: 760px;
+	height: 85px;
+	float: left;	
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+	width: 190px;
+	height: 85px;
+	text-align: center;
+	line-height: 85px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 23px;
+}
+.menu ul li:hover{
+	background: #363535;
+}
+.cart{
+	width: 1030px;
+	height: 85px;
+	background: #222222;
+	float: left;
+}
+.cart img{
+	width: 55px;
+	height: 55px;
+	margin: 15px 620px;
+}
+.cart p{
+	color: white;
+	float: right;
+}
+.content{
+	width: 1920px;
+	height: 3530px;
+	background: red;
+}
+.content1{
+	width: 1920px;
+	height: 1010px;
+	background: #4A4A4A;
+}
+.content11{
+	width: 960px;
+	height: 1010px;
+	float: left;
+}
+.content11 p{
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	margin-top: 400px;
+	margin-left: 500px;
+}
+.content11 h1{
+	font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+	margin-top: 25px;
+	margin-left: 500px;
+}
+.content12{
+	width: 960px;
+	height: 1010px;
+	float: left;
+}
+.content12 img{
+	margin-top: 300px;
+}
+.content2{
+	width: 1920px;
+	height: 1080px;
+	background: orange;
+	background-image: url("../img/area51m.png");
+}
+.content2 img{
+	width: 1920px;
+	height: 1080px;
+	background: orange;
+}
+.content21{
+	width: 490px;
+	height: 245px;
+	margin: 0 auto;
+	margin-left: 200px;
+}
+.content21 p{
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	position: absolute;
+	margin: 600px 0px 0px 0px;
+}
+.content21 h1{
+	font-size: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: white;
+	position: absolute;
+	margin: 650px 0px 0px 0px;
+}
+.content3{
+	width: 1920px;
+	height: 360px;
+	background: gray;
+}
+.content31{
+	width: 640px;
+	height: 360px;
+	background-image: url("../img/Untitled-2.jpg");
+	float: left;
+}
+.content32{
+	width: 640px;
+	height: 360px;
+	background-image: url("../img/aurora.jpg");
+	float: left;
+}
+.content33{
+	width: 640px;
+	height: 360px;
+	background: url("../img/gear.jpg");
+	float: left;
+}
+.content4{
+	width: 1920px;
+	height: 1080px;
+	background-image: url("../img/9pt8zNeMGtCU7km4jo7SqR.jpg");
+}
+.content41{
+	width: 490px;
+	height: 200px;
+	margin: 0 auto;
+	margin-right: 50px;
+}
+.content41 p{
+	font-size: 30px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color: white;
+	position: absolute;
+	margin: 300px 0px 0px 0px;
+}
+.footer{
+	width: 1920px;
+	height: 785px;
+	background: #222222;
+}
+.footerlogo{
+	width: 1800px;
+	height: 250px;
+	margin: 0 auto;
+}
+.footerlogo p{
+	color: white;
+	margin-top: 150px;
+}
+.footer img{
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-left: 750px;
+}
